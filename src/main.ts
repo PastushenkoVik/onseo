@@ -35,7 +35,7 @@ export class Main {
         this.game.ticker.add(() => {
             bunny.rotation += 0.05;
         });
-    }   
+    }
 
     private createRenderer(): void {
         this.game = new PIXI.Application({
